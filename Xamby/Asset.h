@@ -1,6 +1,6 @@
 #pragma once
 
-#include "MyECS\Systems.h"
+#include "Systems.h"
 
 namespace asset
 {

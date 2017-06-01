@@ -2,7 +2,6 @@
 #define ENTITY_MANAGER_H
 
 #include "Entity.h"
-#include "ComponentsManager.h"
 
 class EntityManager
 {

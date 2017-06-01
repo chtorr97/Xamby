@@ -19,31 +19,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyECS\ComponentsManager.cpp" />
-    <ClCompile Include="MyECS\Components\Component.cpp" />
-    <ClCompile Include="MyECS\Components\Physic.cpp" />
-    <ClCompile Include="MyECS\Entity.cpp" />
-    <ClCompile Include="MyECS\EntityManager.cpp" />
-    <ClCompile Include="MyECS\Systems.cpp" />
-    <ClCompile Include="TextureManager.cpp" />
+    <ClInclude Include="Asset.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Components.h" />
+    <ClInclude Include="ComponentsManager.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Graphic.h" />
+    <ClInclude Include="Physic.h" />
+    <ClInclude Include="Systems.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Constants.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="MyECS\Asset.h" />
-    <ClInclude Include="MyECS\ComponentsManager.h" />
-    <ClInclude Include="MyECS\Components\Component.h" />
-    <ClInclude Include="MyECS\Components\Components.h" />
-    <ClInclude Include="MyECS\Components\Physic.h" />
-    <ClInclude Include="MyECS\Components\Utility.h" />
-    <ClInclude Include="MyECS\Entity.h" />
-    <ClInclude Include="MyECS\EntityManager.h" />
-    <ClInclude Include="MyECS\Systems.h" />
-    <ClInclude Include="TextureManager.h" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentsManager.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Graphic.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Physic.cpp" />
+    <ClCompile Include="Systems.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7f4520df-7e5b-45c9-8318-ba6c65af67c7}</ProjectGuid>

@@ -1,5 +1,11 @@
 #pragma once
 
+#include <Box2D\Box2D.h>
+#include <SFML\Graphics.hpp>
+
+using namespace std;
+using namespace sf;
+
 namespace comp
 {
 	enum compType
@@ -7,6 +13,7 @@ namespace comp
 		NONE = -1,
 		IS_ACTIVE,
 		PHYSIC,
+		GRAPHIC,
 		NUMBER_OF_COMPONENTS
 	};
 }

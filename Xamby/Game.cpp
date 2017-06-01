@@ -12,6 +12,9 @@ Game::~Game()
 
 void Game::init()
 {
+	cout << sizeof(Physic) << " " << sizeof(Graphic);
+	int x;
+	cin >> x;
 	Physic::setWorld(world);
 }
 

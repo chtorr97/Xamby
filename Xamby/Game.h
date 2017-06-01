@@ -1,6 +1,6 @@
 #pragma once
 
-#include "MyECS\Asset.h"
+#include "Asset.h"
 
 class Game
 {
