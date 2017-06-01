@@ -1,22 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{d10ce1aa-7c8c-40cb-8f81-51000ec44ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyECS">
+      <UniqueIdentifier>{43445191-689b-42bd-8254-3a21d40287d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyECS\Components">
+      <UniqueIdentifier>{f0833966-d509-4de3-b89b-badefcb9f04e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MyECS\ComponentsManager.cpp">
+      <Filter>MyECS</Filter>
+    </ClCompile>
+    <ClCompile Include="MyECS\Entity.cpp">
+      <Filter>MyECS</Filter>
+    </ClCompile>
+    <ClCompile Include="MyECS\EntityManager.cpp">
+      <Filter>MyECS</Filter>
+    </ClCompile>
+    <ClCompile Include="MyECS\Systems.cpp">
+      <Filter>MyECS</Filter>
+    </ClCompile>
+    <ClCompile Include="MyECS\Components\Component.cpp">
+      <Filter>MyECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MyECS\Components\Physic.cpp">
+      <Filter>MyECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Asset.h">
+      <Filter>MyECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\ComponentsManager.h">
+      <Filter>MyECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Entity.h">
+      <Filter>MyECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\EntityManager.h">
+      <Filter>MyECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Systems.h">
+      <Filter>MyECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Components\Component.h">
+      <Filter>MyECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Components\Components.h">
+      <Filter>MyECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Components\Physic.h">
+      <Filter>MyECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS\Components\Utility.h">
+      <Filter>MyECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>MyECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
